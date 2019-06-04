@@ -1,106 +1,61 @@
 <!DOCTYPE html>
-
-<!-- below is for Modernizr - auto detects browser and adapts accordingly -->
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!-->
 <html>
-<head>
-
-
-
-
-<!---------- For Mobile ---------->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<!----------- Stylesheet ---------->
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="stylesheet" href="src/media-style.css">
-
-<!----------- Fonts ---------->
-	  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.gooigleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
-    <link href='font-family: "Times New Roman", Times, serif;' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- manifest.json provides metadata used when your web app is installed on a user's mobile device or desktop.
-		See https://developers.google.com/web/fundamentals/web-app-manifest/ -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-
-
-<title>Foliospace</title>
-
-
-</head>
-
-
-<body>
-
-
-
-<section id="home">
-  <!-- NAVIGATION BAR ------------------>
-  <!-- source: https://codepen.io/chriscoyier/pen/dpBMVP -->
-  <div class="nav-bar">
-    <div id="nav-name"> Andrea Dias </div> <!-- ADDS NAME TO LEFT HAND SIDE -->
-    <div id="nav-section"> <!-- LINKS ON RIGHT HAND SIDE -->
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#education">Education</a></li> <!-- must match header id -->
-        <li><a href="#portfolio-section">Portfolio</a></li>
-        <li><a href="#contact-section">Contact</a></li>
-      </ul>
-    </div> <!-- end of nav-section div -->
-  </div> <!-- end of nav-bar div -->
-<!-- FRONT PAGE - HI IM ____ -------------->
-  <div class= "container">
-			<h2> Hi, I'm </h2>
-			<h1> Andrea Dias </h1>
-	</div>
-</section>
-
-
-
-<!---------------- EDUCATION SECTION ----------------->
-
-<section id="education">
-	<div class="layout">
-
-			<h5>Oregon State University</h5>
-			<p>B.S. in Computer Science</p>
-			<p>Graduated June 2019</p>
-
-	</div>
-</section>
-
-<!---------------- PORTFOLIO SECTION ----------------->
-
-<section id="portfolio-section">
-	<div class="layout">
-		<h5>Portfolio <br><img src="https://res.cloudinary.com/foliospace/image/upload/v1559599367/testing/boat.jpg"	alt="boat.jpg"	width=300	height=300> </h5>
-</div>
-</section>
-
-<!---------------- CONTACT SECTION ----------------->
-
-<section id="contact-section">
-		<h5>Contact <br> diasan@oregonstate.edu</h5>
-  		<p>https://www.linkedin.com/in/andrea-dias-7106b251/</p>
-
-</section>
-
-
-
-
-<!------------------- JS stuff  ------------------->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://media-library.cloudinary.com/global/all.js"></script>
-
-
-
-</body>
+  <head>
+  <!-- For Mobile ---------->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--- Stylesheet ---------->
+      <link rel="stylesheet" href="src/style.css">
+      <link rel="stylesheet" href="src/media-style.css">
+  <!--- Fonts ---------->
+  	  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+      <link href='font-family: "Times New Roman", Times, serif;' rel='stylesheet' type='text/css'>
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+      <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+      <title>Foliospace</title>
+  </head>
+  <body>
+    <section id="home">
+      <!-- NAVIGATION BAR ------------------>
+      <!-- source: https://codepen.io/chriscoyier/pen/dpBMVP -->
+      <div class="nav-bar">
+        <div id="nav-name"> Andrea Dias </div> <!-- ADDS NAME TO LEFT HAND SIDE -->
+        <div id="nav-section"> <!-- LINKS ON RIGHT HAND SIDE -->
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li> <!-- must match header id -->
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div> <!-- end of nav-section div -->
+      </div> <!-- end of nav-bar div -->
+    <!-- FRONT PAGE - HI IM ____ -------------->
+      <div class= "container">
+    			<h2> Hi, I'm </h2>
+    			<h1> Andrea Dias </h1>
+    	</div>
+    </section>
+  <!-- EDUCATION SECTION ----------------->
+    <section id="education">
+      <div class= "container">
+    			<h5>Oregon State University</h5>
+    			<p>B.S. in Computer Science</p>
+    			<p>Graduated June 2019</p>
+      </div>
+    </section>
+    <!-- PORTFOLIO SECTION ----------------->
+    <section id="portfolio-section">
+      <div class= "container">
+    		<h5>Portfolio <br><img src="https://res.cloudinary.com/foliospace/image/upload/v1559599367/testing/boat.jpg"	alt="boat.jpg"	width=300	height=300> </h5>
+      </div>
+    </section>
+    <!-- CONTACT SECTION ----------------->
+    <section id="contact-section">
+    		<h5>Contact <br> diasan@oregonstate.edu</h5>
+      		<p>https://www.linkedin.com/in/andrea-dias-7106b251/</p>
+    </section>
+    <!--- JS stuff  ------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://media-library.cloudinary.com/global/all.js"></script>
+  </body>
 
 </html>
